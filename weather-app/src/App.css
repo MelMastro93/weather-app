@@ -219,6 +219,7 @@ button:hover {
   gap: 12px;
   overflow-x: auto;
   justify-content: center;
+  width: 100%
 
 }
 
