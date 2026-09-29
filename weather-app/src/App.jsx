@@ -91,14 +91,12 @@ function App() {
           >
             {getWeatherIcon(weather.current.weather_code)}
           </div>
-          <p>
-            {
+          
               <p>
                 {getWeatherIcon(weather.current.weather_code)}{" "}
                 {weather.current.temperature_2m}°C
               </p>
-            }
-          </p>
+           
           <div className="forecast">
             {weather.daily.time.map((date, index) => (
               <div key={date} className="forecast-day">

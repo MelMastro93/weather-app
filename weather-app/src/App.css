@@ -8,7 +8,6 @@ body {
 }
 
 .app {
- .app {
   min-height: 100vh;
   padding: 60px 20px;
   text-align: center;
@@ -18,7 +17,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-}
+
 
 .default {
   background: linear-gradient(to bottom, #8e9eab, #eef2f3);
@@ -28,6 +27,7 @@ body {
   position: relative;
   height: 300px;
   margin-top: 60px;
+  width: 100%;
 }
 .intro-icon {
   position: absolute;
@@ -198,7 +198,6 @@ button:hover {
 }
 
 .weather > p {
- .weather > p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +207,7 @@ button:hover {
   margin: 0 0 24px;
   white-space: nowrap;
 }
-}
+
 
 .forecast {
   display: flex;
